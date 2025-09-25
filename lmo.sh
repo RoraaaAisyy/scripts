@@ -3,7 +3,7 @@
 rm -rf prebuilts/clang/host/linux-x86
 # Repo Init
 repo init -u https://github.com/RoraaaAisyy/lmodroid_manifest.git -b fourteen --git-lfs
-/opt/crave/resync.sh | repo sync
+/opt/crave/resync.sh || repo sync
 # cloning trees
 git clone https://github.com/RoraaaAisyy/android_device_xiaomi_earth.git -b Lmodroid-14 device/xiaomi/earth
 git clone https://github.com/mt6768-dev/proprietary_vendor_xiaomi_earth.git -b lineage-21 vendor/xiaomi/earth
