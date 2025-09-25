@@ -13,7 +13,7 @@ git clone https://github.com/LineageOS/android_hardware_mediatek.git -b lineage-
 git clone https://github.com/LineageOS/android_device_mediatek_sepolicy_vndr.git -b lineage-21 device/mediatek/sepolicy_vndr
 git clone https://github.com/AbuRider/signing_keys.git -b lmaodroid vendor/lmodroid-priv/keys 
 # Export
-export BUILD_USERNAME=aisy
+export BUILD_USERNAME=dnryd
 export BUILD_HOSTNAME=pangokceria
 export TZ=Asia/Jakarta
 # Start Build !
