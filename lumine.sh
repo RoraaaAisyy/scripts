@@ -5,12 +5,8 @@ rm -rf prebuilts/clang/host/linux-x86
 repo init -u https://github.com/LumineDroid/platform_manifest.git -b bynx --git-lfs
 # sync
 /opt/crave/resync.sh || repo sync
-# rm
-rm -rf device/xiaomi/earth kernel/xiaomi/earth vendor/xiaomi/earth
-rm -rf hardware/xiaomi hardware/mediatek device/mediatek/sepolicy_vndr
-rm -rf vendor/lineage-priv/keys
 # Clone Trees
-git clone https://github.com/AbuRider/android_device_xiaomi_earth.git -b Lumine device/xiaomi/earth
+git clone https://github.com/RoraaaAisyy/android_device_xiaomi_earth.git -b Lumine device/xiaomi/earth
 git clone https://github.com/mt6768-dev/proprietary_vendor_xiaomi_earth.git -b lineage-23.0 vendor/xiaomi/earth
 git clone https://github.com/AbuRider/android_kernel_xiaomi_earth.git -b upstream kernel/xiaomi/earth
 # Other Stuff's
